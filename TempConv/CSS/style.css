@@ -1,0 +1,180 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  list-style: none;
+  text-decoration: none;
+  transition: 0.2s linear;
+  text-transform: capitalize;
+}
+
+:root {
+}
+
+header{
+    height: 15vh;
+    padding: 0rem 1rem;
+    background-color: #788998;
+    border-bottom: 2px solid black;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    height: 14vh;
+}
+
+.logo i{
+    font-size: 3rem;
+    margin-right: .5rem;
+}
+.logo span{
+    font-size: 2.5rem;
+}
+
+.logo .domain{
+    position: relative;
+    top: 1vh;
+    text-transform: lowercase;
+    font-size: 1rem;
+}
+
+
+
+.navbar{
+    padding: .1rem 1rem;
+    border-bottom: 2px solid black;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: end;
+}
+
+.navbar ul li{
+    margin-right: .3rem;
+}
+
+.navbar ul li a{
+    font-size: 1.3rem;
+}
+
+.content {
+    max-width: 83vw;
+}
+.content .heading{
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.conversion{
+    padding-top: 2rem;
+}
+
+.conversion .btn{
+    background: none;
+    border: 1.5px solid black;
+    border-radius: .3rem;
+    background-color: #8e3131;
+    cursor: pointer;
+}
+
+
+
+.value{
+    border: 1.5px solid black;
+    border-radius: 6px;
+    padding-top: .2rem;
+}
+
+.conversion .cross{
+    position: absolute;
+    left: 49.5vw;
+    top: 45.5vh;
+    cursor: pointer;
+}
+
+.conversion .cross:active{
+    color: wheat;
+    
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: .7rem;
+}
+
+.from{
+    margin-right: 4rem;
+}
+
+.form .fa-right-left{
+    position: absolute;
+    top: 55vh;
+    left: 41vw;
+    cursor: pointer;
+}
+.form .fa-right-left:active{
+    color: wheat;
+}
+
+
+.section{
+    position: absolute;
+    left: 35vw;
+    margin-top: 2rem;
+}
+
+form{
+    margin-top: .5rem;
+}
+
+
+@media only screen and (max-width:280px) {
+    .logo i {
+        font-size: 2rem;
+    }
+    .logo span {
+        font-size: 1.5rem;
+    }
+
+    .logo .domain {
+        position: relative;
+        top: .9vh;
+        font-size: .7rem;
+    }
+    .navbar ul li a {
+        font-size: .6rem;
+    }
+
+    .content {
+        max-width: 83vw;
+        margin: auto;
+    }
+    .conversion .cross {
+        position: absolute;
+        left: 73.5vw;
+        top: 54vh;
+        cursor: pointer;
+    }
+
+    .form .fa-right-left {
+        position: absolute;
+        top: 66.5vh;
+        left: 45vw;
+        cursor: pointer;
+    }
+
+    .value {
+        margin: .3rem 0;
+    }
+
+}
+
+

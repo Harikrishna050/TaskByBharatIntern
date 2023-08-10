@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Convertor</title>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/d3d369f9f1.js" crossorigin="anonymous"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/utils.css">
+</head>
+
+<body>
+    <header class="">
+        <div class="logo">
+            <i class="fa-solid fa-temperature-three-quarters fa-2xl"></i>
+            <span>MyConvertor</span>
+            <span class="domain">.com</span>
+        </div>
+    </header>
+    <nav class="navbar ">
+        <ul>
+            <li class="navbar-list"><a href="">Home | </a></li>
+            <li class="navbar-list"><a href=""> FAQ |</a></li>
+            <li class="navbar-list"><a href=""> message forum |</a></li>
+            <li class="navbar-list"><a href=""> contact us |</a></li>
+        </ul>
+    </nav>
+
+    <section class="content" id="content">
+        <div class="heading">
+            <span>
+                <h2>welcome to temperature conversion</h2>
+                <span>Convert me!</span>
+            </span>
+
+        </div>
+
+        <div class="conversion">
+            <div class="input text-align">
+                <span>Enter your quantity:</span>
+                <input class="value" type="number" name="" id="" placeholder="enter the value">
+                <div class="cross">
+                    <i class="fa-solid fa-xmark"></i>
+                </div>
+                <button class="btn" onclick="toConvert()">calculate</button>
+            </div>
+        </div>
+        <div class="form">
+            <div class="from">
+                <label for="to">from</label>
+                <form class="border2" action="">
+                    <select id="from" name="mesh" id="">
+                        <option value="celsius">celsius</option>
+                        <option value="kelvin">kelvin</option>
+                        <option value="fahrenheit">fahrenhiet</option>
+                    </select>
+                </form>
+            </div>
+            <div class="swap">
+                <i class="fa-solid fa-right-left" ></i> 
+            </div>
+            <div class="to">
+                <label for="to">to</label>
+                <form class="border2" action="">
+                    <select id="to" name="mesh" id="">
+                        <option value="celsius">celsius</option>
+                        <option value="kelvin">kelvin</option>
+                        <option value="fahrenheit">fahrenhiet</option>
+                    </select>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="section">
+
+    </div>
+
+
+
+
+</body>
+<script src="script.js"></script>
+
+</html>

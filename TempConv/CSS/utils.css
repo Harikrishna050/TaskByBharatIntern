@@ -1,0 +1,12 @@
+.border{
+    border: 2px solid red;
+}
+
+.border2{
+    border: 1.5px solid black;
+    border-radius: 4px;
+}
+
+.text-align{
+    text-align: center;
+}
